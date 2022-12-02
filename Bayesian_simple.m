@@ -6,7 +6,7 @@ nu = 2;
 gamma = linspace(0.5,2,10);    
 
 %Likelihood st.dev (generally factor lower than gamma)
-sigma = 0.5;
+sigma = 1;
 F(numel(gamma)) = struct('cdata',[],'colormap',[]);
 
 %Stimulus range and speed
